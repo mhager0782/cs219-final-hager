@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | Matthew Hager</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <nav>
+
+        <div class="logo">
+            Matthew Hager
+        </div>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="blog.html" class="active-link">Blog</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+    </nav>
+
+
+    <header class="page-header">
+
+        <p class="small-heading">
+            Blog
+        </p>
+
+        <h1>
+            Thoughts, Projects, and Technical Notes
+        </h1>
+
+        <p>
+            A collection of posts related to programming,
+            development, coursework, and creative ideas.
+        </p>
+
+    </header>
+
+
+    <section class="section">
+
+        <input type="text" id="searchInput" placeholder="Search blog posts...">
+
+
+        <div class="filter-buttons">
+
+            <button class="filter-btn active" data-category="all">
+                All
+            </button>
+
+            <button class="filter-btn" data-category="development">
+                Development
+            </button>
+
+            <button class="filter-btn" data-category="academics">
+                Academics
+            </button>
+
+            <button class="filter-btn" data-category="projects">
+                Projects
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <section class="featured-post">
+
+        <img src="images/featured.jpg" alt="Featured Post">
+
+        <div>
+
+            <p class="blog-category">
+                Featured Post
+            </p>
+
+            <h2>
+                Creating Large Scale Progression Systems
+            </h2>
+
+            <p class="hero-description">
+                Exploring ideas for long-term player progression,
+                scientific advancement, and exploration-based gameplay systems.
+            </p>
+
+            <a href="blog-post.html" class="btn">
+                Read Post
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <section class="section">
+
+        <div class="blog-grid">
+
+            <div class="blog-card filter-item" data-category="development">
+
+                <img src="images/blog1.jpg" alt="Blog">
+
+                <div class="blog-info">
+
+                    <p class="blog-category">
+                        Development
+                    </p>
+
+                    <h3>
+                        JavaScript Project Notes
+                    </h3>
+
+                    <p>
+                        Notes from building interactive web projects.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="blog-card filter-item" data-category="academics">
+
+                <img src="images/blog2.jpg" alt="Blog">
+
+                <div class="blog-info">
+
+                    <p class="blog-category">
+                        Academics
+                    </p>
+
+                    <h3>
+                        Statistics Coursework
+                    </h3>
+
+                    <p>
+                        Applying data analysis concepts in coursework.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="blog-card filter-item" data-category="projects">
+
+                <img src="images/blog3.jpg" alt="Blog">
+
+                <div class="blog-info">
+
+                    <p class="blog-category">
+                        Projects
+                    </p>
+
+                    <h3>
+                        Building a Portfolio Website
+                    </h3>
+
+                    <p>
+                        Designing a responsive portfolio project from scratch.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="pagination">
+
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+
+        </div>
+
+    </section>
+
+
+    <footer>
+
+        <div>
+
+            <h3>
+                Matthew Hager
+            </h3>
+
+            <p>
+                Computer Science Portfolio Website
+            </p>
+
+        </div>
+
+        <div class="footer-links">
+
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="blog.html">Blog</a>
+            <a href="resume.html">Resume</a>
+            <a href="contact.html">Contact</a>
+
+        </div>
+
+    </footer>
+
+
+    <script src="js/main.js"></script>
+
+</body>
+</html>
